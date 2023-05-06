@@ -5,7 +5,7 @@ body {
 h1 {
     color: rgb(180, 70, 70);
     padding: 0.5rem;
-    margin-left: 130px;
+    text-align: center;
 }
 main img {
     width: 250px;
