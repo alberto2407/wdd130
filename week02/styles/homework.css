@@ -1,17 +1,17 @@
 body {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;}
 
 h1 {
     color: rgb(180, 70, 70);
     padding: 0.5rem;
-    text-align: center;
+    margin-left: 100px;
 }
 main img {
     width: 250px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
+    padding: 1px;
     box-shadow: 0 0 30px gray;
     float: center;
     margin: 0 0 1rem 1rem;
