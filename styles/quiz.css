@@ -19,19 +19,18 @@ header {
 h1 {
     margin: 1rem;
     font-size: 1.5em;
-    color: #ff7033;
-    text-align: center;
+    color: #338bff;
 }
 
 form {
-    width:500px;
-    margin: 0 auto; 
+    width: 650px;
+    margin: auto; 
     padding: 1rem;
-    border: 1px solid #1D252F;
+    border: 1px solid #909aa7;
     border-radius: 5px ;
-    background-color: #1D252F;
+    background-color: #909aa7;
     display: grid;
-    color: aliceblue;
+    color: rgb(10, 10, 10);
 }
 
 fieldset {
@@ -42,37 +41,20 @@ fieldset {
     padding: 10px ;
 }
 
-legend {
-    padding: 10px;
-    color: #ff7033;
-    font-size: 20px;
-}
-
 label, input, button, select, textarea {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
-/*label {
-    text-align: right;
-    padding-right: 1rem;
-}*/
-
 input, select, textarea {
-    padding: 5px;
-    font-size: large;
-}
-
-input [type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align:bottom;
+    padding: 1px;
+    font-size: 1rem;
 }
 
 button {
     margin: 15px;
-    background-color: #ff7033;
+    background-color: #338bff;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
     font-size: 15px;
 }
@@ -82,23 +64,10 @@ button:hover {
 }
 
 footer {
-    margin: auto;
-    width: 650px;
+    margin: 10px;
+    width: auto;
     text-align: center;
     font-size: 15px ;
-    color: #ff7033;
+    color: #338bff;
     border-top: 1px solid;
-}
-
-.form-item {
-    display: grid;
-    align-items: center;
-}
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 1px;
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
 }
