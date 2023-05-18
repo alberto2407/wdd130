@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: #ff7033;
+    text-align: center;
+}
+
+form {
+    width:500px;
+    margin: 0 auto; 
+    padding: 1rem;
+    border: 1px solid #1D252F;
+    border-radius: 5px ;
+    background-color: #1D252F;
+    display: grid;
+    color: aliceblue;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 15px;
+    border: 1px solid #ffffff;
+    padding: 10px ;
+}
+
+legend {
+    padding: 10px;
+    color: #ff7033;
+    font-size: 20px;
+}
+
+label, input, button, select, textarea {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+/*label {
+    text-align: right;
+    padding-right: 1rem;
+}*/
+
+input, select, textarea {
+    padding: 5px;
+    font-size: large;
+}
+
+input [type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align:bottom;
+}
+
+button {
+    margin: 15px;
+    background-color: #ff7033;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+button:hover {
+    background-color: #1D252F;
+}
+footer {
+    margin: 10px;
+    width: 650px;
+    text-align: center;
+    font-size: 15px ;
+    color: #ff7033;
+    border-top: 1px solid;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
