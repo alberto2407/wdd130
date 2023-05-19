@@ -26,9 +26,9 @@ form {
     width: 650px;
     margin: auto; 
     padding: 1rem;
-    border: 1px solid #909aa7;
+    border: 1px solid #ced3da;
     border-radius: 5px ;
-    background-color: #909aa7;
+    background-color: #ced3da;
     display: grid;
     color: rgb(10, 10, 10);
 }
@@ -37,7 +37,7 @@ fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 15px;
-    border: 1px solid #ffffff;
+    border: 0 ;
     padding: 10px ;
 }
 
@@ -51,12 +51,15 @@ input, select, textarea {
 }
 
 button {
-    margin: 15px;
+    width: 100px;
+    margin: 15px auto;
     background-color: #338bff;
     border: none;
     border-radius: 5px;
     padding: 5px;
     font-size: 15px;
+    display: block;
+    
 }
 
 button:hover {
@@ -70,4 +73,14 @@ footer {
     font-size: 15px ;
     color: #338bff;
     border-top: 1px solid;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column {
+    grid-template-columns: auto ;
+    grid-template-rows: auto;
+    margin: 1px;
 }
