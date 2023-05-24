@@ -27,33 +27,51 @@ body {
     padding: 20px;
 }
 
-h1 { 
-    position: absolute;
-    padding: 20px;
-}
-
-.foto  {
-    position: absolute;
-    top: 20px;
-    left: 5px;
-    background-color: rgba(5, 7, 12, 0.70);
-    opacity: 0.9;   
-    color: #fff;
-
-}
-
 .hero {
     position: relative;
 }
 
-.hero img {
+.hero .img_background {
     width: 100%;
+}
+
+.flex_center{
+    display: flex;
+    justify-content: center;
+}
+
+.hero article {
+    position: absolute;
+    top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 87, 250, 0.45);
+    padding: 10px;
+    width: 80%;
+}
+.hero article p {
+    width: 70%;
+    color: #ffffff;
+}
+
+.hero article img {
+    width: 30%;
+}
+.hero .black_title {
+    position: absolute;
+    top: 50px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 a {
     text-decoration: none;
 }
 
-header a {
-    color: #000000;
+.titulo_parrafo h2 {
+    color:bisque ;
 }
