@@ -45,13 +45,15 @@ body {
     top: 250px;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(0, 87, 250, 0.45);
+    background-color: rgba(0, 87, 250, 0.50);
     padding: 10px;
     width: 80%;
 }
 .hero article p {
     width: 70%;
-    color: #ffffff;
+    color: var(--paragraph-color-on-color);
+    font-family:var(--paragraph-font);
+    font-size: 1em;
 }
 
 .hero article img {
@@ -73,5 +75,5 @@ a {
 }
 
 .titulo_parrafo h2 {
-    color:bisque ;
+    color:#396E94 ;
 }
