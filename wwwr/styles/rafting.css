@@ -18,46 +18,42 @@
     --nav-background-color: #3C6E71;
     --nav-hover-link-color: #284B63;
     --nav-hover-background-color: #3C6E71;
-  }
+}
 
 body {
+    margin: 0 auto;
     font-family:var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-    display: grid;
-}
-p {
+h1 { 
+    position: absolute;
     padding: 20px;
 }
 
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2em;
-    display: flex;
+.foto  {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    background-color: rgba(5, 7, 12, 0.70);
+    opacity: 0.9;   
+    color: #fff;
+
 }
 
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    padding: 1rem;
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+a {
     text-decoration: none;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+header a {
+    color: #000000;
 }

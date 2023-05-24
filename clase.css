@@ -1,0 +1,31 @@
+body{
+}
+.contenedor {
+    display: flex;
+    
+}
+.contenedor > div {
+    color: red;
+    /* padding: 50px; queremos 50px a todos los lados */
+    /* padding: 20px 50px; que queremos 20px arriba y abajo (AA) 50px izq derecha  */
+    /* padding-left: 50px; izq*/
+    /* padding-top: 50px; arriba */
+    /* padding-right: 50px;  derecha*/
+    /* padding-bottom: 50px; abajo */
+    /* padding: 10px 20px 30px 40px; en orden de las agujas del reloj, primero las 12, luego las 3, luego las 6 y luego las 9, es decir 10px arriba, 20px derecha, 30px abajo, 40px izq */
+    margin-right: 10px;
+}
+
+.contenedor2 {
+    position: relative;
+    width: 600px;
+}
+ 
+.contenedor2 img {
+    width: 100%;;
+}
+.contenedor2 h1 {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
