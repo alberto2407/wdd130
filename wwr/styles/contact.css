@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: ital, Helvetica, sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #284B63;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color:  #ff0000;
+}
+
+.contact h1 {
+    color: #284B63;
+    font-family:"Sofia Sans Semi Condensed";
+}
+
+.contact h2 {
+    color: #284B63;
+    font-family:"Sofia Sans Semi Condensed";
+}
+
+.contact p {
+    color: #284B63;
+    font-family: ital, Helvetica, sans-serif;
+}
+
+.map {
+    max-width: 600px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 50px;
+}
+
+.form-item-column1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.form-item-column2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+fieldset {
+    text-decoration: none;
+}
+
+button {
+    width: 100px;
+    margin: 15px auto;
+    background-color: #284B63;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    align-content: center;
+}
+
+.employee {
+    text-align: center;
+    color: #284B63;
+    font-family: "Sofia Sans Semi Condensed";
+}
+
+.grid_happy {
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 250px 30px;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_form {
+    display: grid;
+    width: 400px;
+    margin: 1rem auto; 
+    padding: 1rem;
+    border: 1px solid #ced3da;
+    border-radius: 5px ;
+    background-color: #ced3da;
+    display: grid;
+    color: rgb(10, 10, 10);
+}
+
+legend {
+    padding: 10px;
+    color: #284B63;
+    font-size: 20px;
+}
+.form-item-column1 {
+    grid-template-columns: 75px 1fr;
+    margin: 10px;
+}
+.form-item-column2 {
+    margin: 10px;
+}   
+
+.grig_form {
+    margin: 10px;
+    padding: 10px;
+}
+
+.grid_happy p {
+    font-size: 20px;
+    order: 1;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid #000000;
+    margin: 50px;
+    padding: 5px;
+}

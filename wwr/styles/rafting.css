@@ -26,6 +26,35 @@ body {
     max-width: 960px;
     padding: 20px;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #284B63;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a {
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color:  #0026ff;
+}
 
 .hero {
     position: relative;
