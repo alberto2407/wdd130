@@ -54,10 +54,6 @@ nav a:hover {
     font-family: ital, Helvetica, sans-serif;
 }
 
-.map {
-    max-width: 600px;
-}
-
 section {
     display: flex;
     justify-content: space-around;
@@ -77,8 +73,11 @@ section {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 }
+
 fieldset {
     text-decoration: none;
+    font-family: "Sofia Sans Semi Condensed";
+    font-weight: 600;
 }
 
 button {
@@ -127,10 +126,12 @@ legend {
     color: #284B63;
     font-size: 20px;
 }
+
 .form-item-column1 {
     grid-template-columns: 75px 1fr;
     margin: 10px;
 }
+
 .form-item-column2 {
     margin: 10px;
 }   
