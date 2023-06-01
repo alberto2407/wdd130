@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: ital, Helvetica, sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #284B63;
+    align-items: center;
+    font-family: "Sofia Sans Semi Condensed";
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    color: #D9D9D9;
+}
+
+nav a:hover {
+    color:  #fff;
+}
+
+.trip_grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 50px;
+    gap: 10px;
+    margin: 5px;
+    padding: 10px;
+    align-items: start;
+    justify-content: center;
+}
+
+.trip_grid p {
+    font-size: 20px;
+    order: 1;
+    text-align: center;
+    
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    color: #284B63;
+    font-family: "Sofia Sans Semi Condensed";
+    
+}
+
+section img {
+    margin: 5px;
+    border: 10px solid #284B63;
+    border-radius: 5px;
+}
+
+section p {
+    font-family:  ital, Helvetica, sans-serif;
+}
+
+table {
+    margin: 50px auto 0 auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 10px 20px 10px 20px;
+    font-family:  ital, Helvetica, sans-serif;
+    text-align: center;
+}
+
+th {
+    background-color: #284B63;
+    color: #D9D9D9;
+}
+
+caption {
+    padding-bottom: 20px;
+    font-family: "Sofia Sans Semi Condensed";
+    font-weight: 600;
+    font-size: 25px;
+}
+
+footer {
+    border-top: 1px solid #000000;
+    margin: 50px;
+    padding: 5px;
+}
