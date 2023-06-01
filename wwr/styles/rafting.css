@@ -31,7 +31,7 @@ header {
     justify-content: space-between;
     background-color: #284B63;
     align-items: center;
-    padding: 10px;
+    font-family: "Sofia Sans Semi Condensed";
 }
 
 .logo {
@@ -41,6 +41,8 @@ header {
 
 .logo img {
     width: 100px;
+    margin: 5px;
+    padding: 5px;
 }
 
 a {
@@ -49,11 +51,13 @@ a {
 }
 
 nav a {
+    font-weight: 600;
     padding-right: 10px;
+    color: #D9D9D9;
 }
 
 nav a:hover {
-    color:  #0026ff;
+    color:  #fff;
 }
 
 .hero {
@@ -69,12 +73,56 @@ nav a:hover {
     justify-content: center;
 }
 
+.grid_adventure {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 250px 30px;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+    align-items: end;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.grid_adventure1 {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 250px 30px;
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+    align-items: end;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.grid_adventure p {
+    order: 1;
+    text-align: center;
+}
+
+.grid_adventure img {
+    border: 10px solid #3C6E71 ;
+    border-radius: 5px;
+}
+
+.grid_adventure1 p {
+    order: 1;
+    text-align: center;
+}
+
+.grid_adventure1 img {
+    border: 10px solid #3C6E71;
+    border-radius: 5px;
+}
+
 .hero article {
     position: absolute;
     top: 250px;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(0, 87, 250, 0.50);
+    background-color: rgb(40, 75, 99, 0.70);
     padding: 10px;
     width: 80%;
 }
@@ -92,7 +140,7 @@ nav a:hover {
     position: absolute;
     top: 50px;
     color: #ffffff;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgb(40, 75, 99, 0.70);
     left: 0;
     right: 0;
     text-align: center;
@@ -103,6 +151,7 @@ a {
     text-decoration: none;
 }
 
-.titulo_parrafo h2 {
+h2 {
     color:#396E94 ;
+    text-align: center;
 }

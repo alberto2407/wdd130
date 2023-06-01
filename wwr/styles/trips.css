@@ -50,6 +50,7 @@ nav a:hover {
     padding: 10px;
     align-items: start;
     justify-content: center;
+    justify-items: center;
 }
 
 .trip_grid p {
